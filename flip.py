@@ -8,7 +8,7 @@ if image is not None:
     
     #cv2.flip(variable,flipole)
     
-    flipped = cv2.flip(img,0) # 0 means top to bottom and 1 means horizontal to vertical and -1 is both
+    flipped = cv2.flip(img,1) # 0 means top to bottom and 1 means horizontal to vertical and -1 is both
     
     cv2.imshow("This is your flipped image",flipped)
     
